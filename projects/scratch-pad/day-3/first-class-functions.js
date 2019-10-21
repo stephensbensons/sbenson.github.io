@@ -22,7 +22,6 @@ function createGreaterThanFilter(base) {
            return true;
        }
    }
-
     
     
     
@@ -64,11 +63,7 @@ function createLessThanFilter(base) {
         }
         return false;
     }
-    
-    
-  
-    
-    
+
     // YOUR CODE ABOVE HERE //
 }
 
@@ -88,10 +83,6 @@ function createEndsWithFilter(endsWith) {
         return false;
     }
     
-    
-    
-    
-    
     // YOUR CODE ABOVE HERE //
 }
 
@@ -102,6 +93,7 @@ function createEndsWithFilter(endsWith) {
  * TIP: You need to loop over the Strings, right? We need to pass each String to 
  * the modify Function, but we need to collect the results into some collection.
  */
+
 //create an array that will collect the output
 //use a for loop to loop over the string input that then sends the data to modify function
 //Finally use .push to send the data to the array
@@ -112,9 +104,6 @@ function modifyStrings(strings, modify) {
        newArray.push(modify(strings[i]));
    }
    return newArray
-    
-    
-    
     // YOUR CODE ABOVE HERE //
 }
 
@@ -141,8 +130,6 @@ function allStringsPass(strings, test) {
    } else {
        return false;
    }
-    
-    
     
     // YOUR CODE ABOVE HERE //
 }

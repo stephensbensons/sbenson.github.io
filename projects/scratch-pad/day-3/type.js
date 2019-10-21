@@ -18,10 +18,7 @@
 function isArray(value) {
     // YOUR CODE BELOW HERE //
     return Array.isArray(value);
-    
-    
-    
-    
+   
     // YOUR CODE ABOVE HERE //
 }
 
@@ -61,7 +58,7 @@ function isCollection(value) {
    } else {
        return false;
    }
-     
+
     
     // YOUR CODE ABOVE HERE //
 }
@@ -85,6 +82,7 @@ function isCollection(value) {
  *    typeOf("javascript") -> "string"
  *    typeOf([1,2,3]) -> "array"
  */ 
+
 //use typeof combined with an if/else statement to check whether input value is a string, boolean, number, undefined,function, object, date, or array
 function typeOf(value) {
     // YOUR CODE BELOW HERE //
@@ -108,10 +106,6 @@ function typeOf(value) {
        } else return 'object'
    }
 
-    
-    
-    
-    
     // YOUR CODE ABOVE HERE //
 }
 

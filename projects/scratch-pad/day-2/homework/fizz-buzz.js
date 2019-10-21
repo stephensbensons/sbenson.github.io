@@ -10,6 +10,7 @@
  *  c. AND for the multiples of five print “Buzz”.
  *  d. FINALLY, for numbers which are multiples of both three and five print “FizzBuzz”.
 */
+
 //create a for loop that runs 1 to 100
 //use if/else statement to check if multiples of 3, 5, or both 3 & 5
 //print the desired results
@@ -25,7 +26,7 @@ function fizzBuzz() {
 		} else {
 			console.log(i);
 		}
-	}
+}
 
 
     // YOUR CODE GOES ABOVE HERE //
